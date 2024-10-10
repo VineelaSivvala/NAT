@@ -21,10 +21,10 @@ The setup involves:
 
 ### Network Topology
 The network consists of:
-- Client 1 (10.0.1.2) connected to the router.
-- Client 2 (10.0.1.3) connected to the router.
+- Client 1 (192..168.10.2) connected to the router.
+- Client 2 (192.168.10.3) connected to the router.
 - Router interfaces connected to both clients and the public network.
-- Public network with a public IP address (203.0.113.1).
+- Public network with a public IP address (203.0.113.2).
 
 ## Challenges Faced
 During the configuration, several challenges were encountered:
