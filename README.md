@@ -34,7 +34,7 @@ During the configuration, several challenges were encountered:
 - **Restricting External Traffic**: Implementing firewall rules to limit unwanted access from the public network to the internal clients.
 
 ## Bonus Tasks
-1. **Port Forwarding**: A simple web server was hosted on Client 1. The configuration was set up to forward requests from the public IP address (`203.0.113.1`) to the internal web server on Client 1, allowing external access to the web service.
+1. **Port Forwarding**: A simple web server was hosted on Client 1. The configuration was set up to forward requests from the public IP address (`203.0.113.2`) to the internal web server on Client 1, allowing external access to the web service.
 2. **Restricting External Traffic**: Additional firewall rules were implemented using `iptables` to restrict access to only specific ports and IP addresses, enhancing the security of the internal network.
 
 ## Conclusion
